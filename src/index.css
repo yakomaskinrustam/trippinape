@@ -1,0 +1,58 @@
+
+body, html {
+  margin: 0;
+  letter-spacing: 3px !important;
+  font-style: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(https://images.newscientist.com/wp-content/uploads/2019/06/03121817/a2wxxe.jpg?width=1200);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  margin: 0;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+p {
+  color: white !important;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  margin: 0.67em 0;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 50%;
+ /* background: rgba(0, 0, 0, 0.2); */
+  color: #f1f1f1;
+  width: 100%;
+}
+
+button:hover {
+  color: black !important;
+}
+
+#root {
+  line-height: 50px;
+}

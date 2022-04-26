@@ -47,7 +47,7 @@ const connection = new anchor.web3.Connection(rpcHost);
 
 const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
 
-const txTimeout = 60000; // milliseconds (confirm this works for your project)
+const txTimeout = 120000; // milliseconds (confirm this works for your project)
 
 const theme = createTheme({
     palette: {
